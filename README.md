@@ -1,4 +1,4 @@
-# README Boilerplate
+# About the Project
 
 I created this project while researching a number of solutions of trying to connect Django with ReactJS. This project uses the Django Rest Framework (DRF) and Webpack modules which made it possible for ReactJS and Django to exchange data via API.
 
