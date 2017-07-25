@@ -34,10 +34,10 @@ I kept this simple, so all data will be stored on sqllite database. You can adap
 
 ## Usage
 
-This project is made up of the following components:
-- x1 Django project called `reactdrf` which can be accessed through http://localhost:8000.
-- x1 Django application called `api` which can be accessed through http://localhost:8000/api/. This is created as a DRF API with very basic routes, namely POST and GET.
-- x1 ReactJS Class based component called `BookList` which is loaded from assets/js/index.js and compiled inside assets/bundles (refer to webpack.config.js)
+This codebase is made up of the following components:
+- Django project called `reactdrf` which can be accessed through http://localhost:8000.
+- Django application called `api` which can be accessed through http://localhost:8000/api/. This is created as a DRF API with very basic routes, namely POST and GET.
+- ReactJS Class based component called `BookList` which is loaded from assets/js/index.js and compiled inside assets/bundles (refer to webpack.config.js)
 
 In order to run this project you need to first compile the frontend through webpack as follows:
 ```sh
