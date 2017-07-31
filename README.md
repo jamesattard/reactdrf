@@ -41,7 +41,7 @@ This codebase is made up of the following components:
 
 In order to run this project you need to first compile the frontend through webpack as follows:
 ```sh
-./node_modules/.bin/webpack --config webpack.config.js
+./node_modules/.bin/webpack --config webpack.config.js --watch
 ```
 
 Once frontend is compiled, the Django server can be run as follows:
